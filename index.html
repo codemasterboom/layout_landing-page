@@ -26,16 +26,16 @@
   <!-- #endregion -->
   <body class="page__body">
     <header class="header">
-      <div class="header__top">
-        <a href="#">
-          <img class="header__logo"
+      <div class="top-bar">
+        <a href="#" class="top-bar__logo">
+          <img
             src="src/images/logo.png"
             alt="B&O Logo"
           />
         </a>
 
-        <div class="header__icons">
-          <a href="#" class="icon icon--phone"></a>
+        <div class="top-bar__icons">
+          <a href="tel:+123455555555" class="icon icon--phone"></a>
           <a href="#menu" class="icon icon--menu"></a>
         </div>
       </div>
@@ -45,8 +45,8 @@
     </header>
 
     <aside class="menu page__menu" id="menu">
-      <div class="menu__top">
-        <a href="#">
+      <div class="top-bar menu__top">
+        <a href="#" class="top-bar__logo">
           <img class="menu__logo"
             src="src/images/logo.png"
             alt="B&O Logo"
@@ -55,31 +55,32 @@
 
         <a href="#" class="icon icon--close"></a>
       </div>
+      <div class="menu__content">
+        <nav class="nav menu__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#recommended" class="nav__link">Recommended</a>
+            </li>
+            <li class="nav__item">
+              <a href="#categories" class="nav__link">Categories</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about-us" class="nav__link">About Us</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contacts" class="nav__link">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
 
-      <nav class="nav menu__nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="#recommended" class="nav__link">Recommended</a>
-          </li>
-          <li class="nav__item">
-            <a href="#categories" class="nav__link">Categories</a>
-          </li>
-          <li class="nav__item">
-            <a href="#about-us" class="nav__link">About Us</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contacts" class="nav__link">Contact Us</a>
-          </li>
-        </ul>
-      </nav>
+        <a href="tel:+123455555555" class="menu__phone-number" >
+          +1 234 5555-55-55
+        </a>
 
-      <a href="tel:+123455555555" class="menu__phone-number" >
-        +1 234 5555-55-55
-      </a>
-
-      <a href="tel:+123455555555" class="menu__call-to-order">
-        Call to order
-      </a>
+        <a href="tel:+123455555555" class="menu__call-to-order">
+          Call to order
+        </a>
+      </div>
     </aside>
 
     <main class="main">
