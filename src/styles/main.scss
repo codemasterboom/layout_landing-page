@@ -50,6 +50,33 @@ body {
 
 /* #endregion */
 
+/* #region menu */
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 24px 20px 40px;
+  height: 100vh;
+  background-color: #f9f9f9;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.menu:target {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.menu__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* #endregion */
+
 /* #region icon */
 .icon {
   display: block;
@@ -63,6 +90,10 @@ body {
 
 .icon--menu {
   background-image: url(../images/icons/icon-burger-menu.png);
+}
+
+.icon--close {
+  background-image: url(../images/icons/icon-close-menu.png);
 }
 
 /* #endregion */
