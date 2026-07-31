@@ -1,9 +1,15 @@
-@import 'blocks/page.css';
-@import 'blocks/header.css';
-@import 'blocks/menu.css';
-@import 'blocks/nav.css';
-@import 'blocks/icon.css';
-@import 'blocks/top-bar.css';
+@import 'utils/variables';
+@import 'utils/mixin';
+@import 'blocks/main';
+@import 'blocks/product';
+@import 'blocks/recommended';
+@import 'blocks/section-title';
+@import 'blocks/page';
+@import 'blocks/header';
+@import 'blocks/menu';
+@import 'blocks/nav';
+@import 'blocks/icon';
+@import 'blocks/top-bar';
 
 /* #region footer */
 .footer {

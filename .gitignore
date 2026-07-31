@@ -1,6 +1,7 @@
 # IDE
 .idea
 .vscode
+.hintrc
 
 # Node
 node_modules
@@ -13,3 +14,6 @@ backstop_data
 dist
 .cache
 .parcel-cache
+
+#GitHub
+.github
