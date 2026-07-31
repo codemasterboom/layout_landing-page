@@ -1,6 +1,24 @@
 .about-us {
   @include page-grid;
 
+  &__image {
+    grid-column: 1 / -1;
+    height: 200px;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    margin-bottom: 48px;
+
+    @include on-tablet {
+      height: 400px;
+    }
+
+    @include on-desktop {
+      height: 460px;
+      object-fit: cover;
+    }
+  }
+
   &__title {
     grid-column: 1 / -1;
 
