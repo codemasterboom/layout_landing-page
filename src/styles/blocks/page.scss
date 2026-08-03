@@ -17,8 +17,8 @@
     right: 0;
     transform: translateX(-100%);
     transition:
-      transform 1s ease,
-      opacity 0.3s ease;
+      transform $effect-duration ease,
+      opacity $effect-duration ease;
 
     opacity: 0;
     pointer-events: none;
