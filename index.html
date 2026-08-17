@@ -33,10 +33,6 @@
       rel="stylesheet"
       href="/src/styles/main.scss"
     />
-    <script
-      src="/src/scripts/main.js"
-      defer
-    ></script>
   </head>
   <!-- #endregion -->
   <body class="page__body">
@@ -329,7 +325,7 @@
             <div class="contacts__wrapper">
               <div class="contacts__form">
                 <form
-                  id="contactForm"
+                  onsubmit="this.reset(); return false;"
                   action="#"
                   method="post"
                   class="form"
